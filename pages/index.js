@@ -1,13 +1,9 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillSkype,
-  // AiFillMail,
-} from "react-icons/ai";
-import Image from "next/image";
-import profile from "../public/profile.png";
+
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
+import Skills from "../components/Skills";
+// import { useState } from "react";
 
 export default function Home() {
   return (
@@ -20,36 +16,9 @@ export default function Home() {
 
       <main className="bg-white px-10">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">MIKY-IO</h1>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
-              </li>
-
-              {/* link na resume a neni <li*/}
-              {/* <li><a href="#">Resume</a></li> */}
-            </ul>
-          </nav>
-          <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
-              Mikulas Richter
-            </h2>
-            <h3 className="text-2xl py-2">Developer and Email marketer.</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
-              Freelancer providing sevices for programming needs. Join me down
-              below and let`s get cracking!
-            </p>
-          </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillSkype />
-            {/* <AiFillMail /> */}
-          </div>
-          <div className="mx-auto scale-50 ">
-            <Image src={profile} layout="fill" objectFit="cover" />
-          </div>
+          <Navbar />
+          <Header />
+          <Skills />
         </section>
         <section></section>
       </main>
