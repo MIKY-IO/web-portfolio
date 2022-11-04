@@ -5,6 +5,8 @@ import Header from "../components/Header";
 import Skills from "../components/Skills";
 import { useState } from "react";
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
+import About from "../components/About";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -29,13 +31,19 @@ export default function Home() {
               setDarkMode(false);
             }}
           ></button>
-          <div className="pt-8">
+          <div className="">
             <Header />
           </div>
-          <div className="pt-8">
+          <div className="pt-60">
+            <About />
+          </div>
+          <div className="">
             <Skills />
           </div>
-          <div>
+          <div className="">
+            <Contact />
+          </div>
+          <div className="">
             <Footer />
           </div>
         </section>

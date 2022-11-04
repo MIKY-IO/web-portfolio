@@ -16,11 +16,11 @@ export default function Skills() {
       <div name="skills" className="w-full bg-[#ffffff] dark:bg-gray-800">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-          <div>
-            <p className="text-4xl font-bold inline border-b-4 border-teal-600 ">
+          <div className="text-center">
+            <p className="text-4xl  dark:text-white font-bold inline border-b-4 border-teal-600 ">
               Skills
             </p>
-            <p className="py-4">
+            <p className="py-4 dark:text-white">
               These are the technologies I have worked with
             </p>
           </div>
@@ -34,7 +34,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">HTML</p>
+              <p className="my-4 dark:text-white ">HTML</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -44,7 +44,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">CSS</p>
+              <p className="my-4 dark:text-white">CSS</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -54,7 +54,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">JAVASCRIPT</p>
+              <p className="my-4 dark:text-white">JAVASCRIPT</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -64,7 +64,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">REACT</p>
+              <p className="my-4 dark:text-white">REACT</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -74,7 +74,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">GITHUB</p>
+              <p className="my-4 dark:text-white">GITHUB</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -84,7 +84,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">NODE</p>
+              <p className="my-4 dark:text-white">NODE</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -94,7 +94,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">FIGMA</p>
+              <p className="my-4 dark:text-white">FIGMA</p>
             </div>
             <div className="rounded-lg shadow-md shadow-[#040c1631] hover:scale-110 duration-500">
               <Image
@@ -104,7 +104,7 @@ export default function Skills() {
                 width={320}
                 height={200}
               />
-              <p className="my-4">JIRA</p>
+              <p className="my-4 dark:text-white">JIRA</p>
             </div>
           </div>
         </div>
