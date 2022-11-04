@@ -8,13 +8,11 @@ import Node from "../public/assets/node.png";
 import GitHub from "../public/assets/github.png";
 import figma from "../public/assets/figma.png";
 import jira from "../public/assets/jira.png";
-// import css from "styled-jsx/css";
 
 export default function Skills() {
   return (
     <>
       <div name="skills" className="w-full bg-[#ffffff] dark:bg-gray-800">
-        {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="text-center">
             <p className="text-4xl  dark:text-white font-bold inline border-b-4 border-teal-600 ">

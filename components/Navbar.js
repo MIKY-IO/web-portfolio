@@ -2,17 +2,10 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import React, { useState } from "react";
 import Link from "next/link";
 
-// props
-// {
-//     onDarkModeChange: (value) => setDarkMode(value),
-//     stringProperty: "hello world"
-//     ...
-// }
-
 export default function Navbar(props) {
   const { onDarkModeChange } = props;
   const { isDark } = props;
-  //   const [toggle, setToggle] = useState(false);
+
   return (
     <>
       <nav className="py-10 mb-12 flex justify-between">
@@ -21,7 +14,6 @@ export default function Navbar(props) {
           <li>
             <button
               onClick={() => {
-                // setToggle(!toggle);
                 onDarkModeChange(!isDark);
               }}
             >
@@ -35,13 +27,9 @@ export default function Navbar(props) {
               smooth={true}
               duration={500}
             >
-              {" "}
               Contact me
             </Link>
           </li>
-
-          {/* link na resume a neni <li*/}
-          {/* <li><a href="#">Resume</a></li> */}
         </ul>
       </nav>
     </>

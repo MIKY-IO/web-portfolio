@@ -22,7 +22,6 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-30 dark:bg-gray-800">
         <section className="min-h-screen">
           <Navbar isDark={darkMode} onDarkModeChange={setDarkMode} />
-          {/* onDarkModeChange === setDarkMode */}
           <button
             type="button"
             className="btn"
